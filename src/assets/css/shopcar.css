@@ -1,0 +1,21 @@
+.box{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 165px;
+
+}
+img{
+    width: 150px;
+    height: auto;
+}
+.box>ul>li{
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(177, 174, 174);
+}
+.no{
+    display: none;
+}

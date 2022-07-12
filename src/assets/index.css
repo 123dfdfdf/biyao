@@ -1,0 +1,171 @@
+.banner {
+    position: relative;
+    width: 1080px;
+    margin: 10px auto 0;
+    background: #fff;
+    height: 360px;
+    margin-top: 155px;
+}
+.banner-slider {
+    position: relative;
+}
+.nav-list {
+    height: 360px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 340px;
+    padding: 10px 0;
+    background: url(http://static2.biyao.com/pc/common/img/master/category-back.png?v=biyao_c27c88e);
+}
+.banner-slider img {
+    width: 1080px;
+    height: 360px;
+}
+.nav-main {
+    width: 200px
+}
+.nav-main>p {
+    height: 34px;
+    line-height: 34px;
+    padding-left: 30px;
+}
+.nav-main>p a {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.platfor {
+    width: 1020px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    height: 40px;
+    background: #FFF;
+    justify-content: space-between;
+}
+.platfor dl {
+    display: flex;
+}
+.platfor dl:nth-child(1) dt {
+    background-image: url("./img/1.png");
+}
+.platfor dl:nth-child(2) dt {
+    background-image: url("./img/2.png");
+}
+.platfor dl:nth-child(3) dt {
+    background-image: url("./img/3.png");
+}
+.platfor dl:nth-child(4) dt {
+    background-image: url("./img/4.png");
+}
+.platfor dl:nth-child(5) dt {
+    background-image: url("./img/5.png");
+}
+.platfor dl dt {
+    width: 32px;
+    height: 40px;
+    background-size: 24px 24px;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+dt, dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    display: block;
+}
+.platfor dl dd {
+    font-size: 14px;
+    line-height: 40px;
+    color: #9687A4;
+}
+body {
+    background: #f9f9f9;
+}
+.hotsale {
+    width: 1080px;
+    margin: 30px auto;
+}
+.hotsale .title {
+    background: #fff;
+    height: 80px;
+    text-align: center;
+}
+.hotsale .rankings {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotsale .title h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #BBB;
+    display: inline-block;
+}
+.hotsale .rankings .commodity:nth-child(odd) {
+    margin-right: 20px;
+}
+.hotsale .rankings .commodity dt img {
+    width: 530px;
+    height: 272px;
+}
+.hotsale .rankings .commodity dd {
+    background-color: #fff;
+    height: 103px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.hotsale .rankings .commodity .priceBox {
+    display: flex;
+    color: #F7A701;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.hotsale .rankings .commodity .price {
+    font-size: 16px;
+    margin-right: 12px;
+}
+.hotsale .rankings .commodity .supplier {
+    font-size: 12px;
+    line-height: 18px;
+    color: #BF9E6B;
+    margin-top: 6px;
+}
+.hotsale .rankings .commodity .content {
+    font-size: 14px;
+    color: #4A4A4A;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.hotsale .rankings .commodity .mack {
+    line-height: 20px;
+}
+.hotsale .rankings .commodity .mack span {
+    font-size: 10px;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0 2px;
+    height: 16px;
+    line-height: 13px;
+    display: inline-block;
+    margin-left: 5px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.hotsale .rankings .commodity .mack span:nth-child(2){
+    color: #FB4C81 !important;
+    background: #FFFFFF !important;
+    border-color: #FB4C81 !important;
+}
+
+.nav-main:hover{
+    background-color: #77717D;
+}
+.nav-main>p>a:hover{
+    color: orange;
+}

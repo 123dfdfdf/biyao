@@ -1,0 +1,106 @@
+.bread {
+    width: 1080px;
+    margin: 20px auto;
+    color: #333;
+    margin-top: 165px;
+    font-size: 12px;
+}
+.bread span {
+    color: gray;
+    cursor: pointer;
+}
+.bread b {
+    margin: 0 8px 0 5px;
+}
+.newProduct {
+    width: 1080px;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+.newProduct p {
+    margin: 10px 0 20px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+.newProduct>div {
+    margin-top: 60px;
+}
+.newProduct b {
+    position: relative;
+    top: -18px;
+    display: block;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: gray;
+    background: #f9f9f9;
+    text-align: center;
+}
+.Box{
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.newProduct .words {
+    width: 430px;
+    height: 335px;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.newProduct .supplier {
+    font-size: 14px;
+    color: #BF9E6B;
+    margin-top: 64px;
+    line-height: 20px;
+}
+.newProduct .title {
+    font-size: 18px;
+    color: #4A4A4A;
+    margin-top: 62px;
+    line-height: 25px;
+}
+.newProduct .price {
+    height: 33px;
+    line-height: 33px;
+    margin-top: 15px;
+    font-size: 22px;
+    color: #F7A701;
+    width: 260px;
+    margin-left: 85px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #F2F2F2;
+}
+.newProduct .salePoint {
+    font-size: 16px;
+    color: gray;
+    margin-top: 28px;
+    line-height: 22px;
+    width: 288px;
+    margin-left: 71px;
+}
+.newProduct img {
+    float: left;
+    width: 650px;
+    height: 335px;
+}
+.newProduct .mack {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+.newProduct .mack span {
+    font-size: 10px;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0 2px;
+    height: 16px;
+    line-height: 13px;
+    display: inline-block;
+    margin-left: 5px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
